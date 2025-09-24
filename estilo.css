@@ -44,6 +44,9 @@ header {
     width: 100%;
     background: var(--cor-fundo);
     border-bottom: 5px var(--cor-borda);
+    z-index: 9999;
+    position: fixed;
+    border-bottom: 1px solid var(--cor-borda);
 }
 
 .menu-desktop {
@@ -151,7 +154,6 @@ botao menu mobile ------ */
 
 
 
-
 /* Medidas Responsivas */
 @media (min-width: 768px) {
 
@@ -159,7 +161,7 @@ botao menu mobile ------ */
         display: flex;
         min-width: 30%;
     }
-    
+   
     .btn-menu-mobile {
     display: none;
     }
@@ -168,4 +170,9 @@ botao menu mobile ------ */
         min-width: 30%;
     }
 
+}
+
+
+#home {
+    padding: 3.5rem 1rem;
 }
