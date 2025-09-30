@@ -18,6 +18,13 @@
     --cor-borda: #1b1b1b;
 }
 
+/* Reset CSS = Padronizar */
+/* Seletor Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 body {
@@ -44,6 +51,10 @@ header {
     width: 100%;
     background: var(--cor-fundo);
     border-bottom: 5px var(--cor-borda);
+    z-index: 9999;
+    position: fixed;
+    border-bottom: 1px solid var(--cor-borda);
+    padding: .5rem 1rem;
 }
 
 .menu-desktop {
@@ -150,6 +161,22 @@ botao menu mobile ------ */
 }
 
 
+#home {
+    padding: 4.0rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
 
 
 /* Medidas Responsivas */
@@ -159,13 +186,37 @@ botao menu mobile ------ */
         display: flex;
         min-width: 30%;
     }
-    
+   
     .btn-menu-mobile {
     display: none;
     }
 
     .header-toggle {
-        min-width: 30%;
+        min-width: 30%; /* Alinhar a Logo */
     }
 
+    header {
+        padding: 1rem 6rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    #home {
+        padding: 8rem 6rem 4rem 6rem;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+} /* FIM min 768px */
+
+@media (min-width: 1400px) {
+    h1 {
+        font-size:2.5rem ;
+    }
 }
