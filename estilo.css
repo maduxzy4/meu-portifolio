@@ -165,6 +165,7 @@ botao menu mobile ------ */
     padding: 4.0rem 1rem;
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 .main-content {
@@ -177,6 +178,48 @@ h1 {
     font-size: 2.5rem;
 }
 
+.video iframe {
+    aspect-ratio: 16/9;
+}
+
+#home,
+.projetos,
+ .sobre, 
+.contato { 
+     padding: 2.5rem 1rem;
+}
+
+.descricao-video {
+    display: flex;
+    flex-direction: column;
+    background: #949494;
+    padding: 6.25rem 1rem 2rem;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-top: -10rem;
+}
+
+.descricao-video h2 {
+    font-size: 2rem;
+    text-transform: capitalize ;
+    margin-top: -2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
 
 
 /* Medidas Responsivas */
@@ -184,7 +227,7 @@ h1 {
 
     .menu-desktop {
         display: flex;
-        min-width: 30%;
+        min-width: 30%; /* Alinhar a Logo */
     }
    
     .btn-menu-mobile {
@@ -203,7 +246,9 @@ h1 {
         font-size: 5rem;
     }
 
-    #home {
+    #home,
+    .projetos,
+    .sobre {
         padding: 8rem 6rem 4rem 6rem;
     }
 
@@ -219,4 +264,11 @@ h1 {
     h1 {
         font-size:2.5rem ;
     }
+
+.descricao-video,
+.projetos,
+.sobre {
+    padding: 10rem 15rem 4rem;
+}
+
 }
