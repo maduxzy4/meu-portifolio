@@ -7,21 +7,17 @@
 /* raiz */
 :root,
 :root[data-theme='dark'] {
-    --cor-fundo: #ffafcf;
+    
     --cor-texto: #ffffff;
     --menu-link: rgb(255, 255, 255);
     --cor-borda: #f4eeee;
-
-    --fundo-gradiente: linear-gradient( #3a0017, #000000); 
 }
 
 :root[data-theme='light'] {
-    --cor-fundo: rgb(21, 65, 28);
-    --cor-texto: #1b1b1b;
+    
+    --cor-texto: #ffffff;
     --menu-link: rgb(247, 255, 249);
     --cor-borda: #1b1b1b;
-
-    --fundo-gradiente: linear-gradient( #ff61a0, #ffffff);
 
 }
 
@@ -34,8 +30,16 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
 body {
-    background: var(--cor-fundo);
+    background: linear-gradient( #ffb2d1, #882177);
     /* cor fundo */
     color: var(--cor-texto);
     /* cor TEXTO */
@@ -58,8 +62,8 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background: var(--cor-fundo);
-    border-bottom: 5px var(--cor-borda);
+    background: #ffb2d1;
+    border-bottom: 5px var(#f4eeee);
     z-index: 9999;
     position: fixed;
     border-bottom: 1px solid var(--cor-borda);
@@ -107,7 +111,7 @@ botao menu mobile ------ */
     background: transparent;
     border: none;
     cursor: pointer;
-    color: var(--cor-texto);
+    color: var(#ffffff);
     display: flex;
     font-size: 1.8rem;
     align-items: center;
