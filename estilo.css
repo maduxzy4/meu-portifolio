@@ -286,7 +286,34 @@ h3 {
     gap:1rem ;
 }
 
+.card-item i:hover {
+    color: #bb0eb5;
+    transition: .5s ease-in-out;
+}
 
+.redes-sociais {
+    font-size: 1.4rem;
+}
+
+.redes-sociais .whatsapp:hover {
+     color: green
+     transi'tion: .5s 'ease-in-out;
+}
+
+.redes-sociais .github:hover {
+     color: #333333;
+     transition: .5s ease-in-out;
+}
+
+.redes-sociais .instagram:hover {
+     color: #840000;
+     transition: .5s ease-in-out;
+}
+
+.redes-sociais .facebook:hover {
+     color: blue;
+     transition: .5s ease-in-out;
+}
 
 
 
