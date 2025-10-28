@@ -296,27 +296,32 @@ h3 {
 }
 
 .redes-sociais .whatsapp:hover {
-     color: green
-     transi'tion: .5s 'ease-in-out;
+    color: chartreuse;
+    font-size: 2rem;
 }
 
 .redes-sociais .github:hover {
      color: #333333;
-     transition: .5s ease-in-out;
+     font-size: 2rem;
 }
 
 .redes-sociais .instagram:hover {
-     color: #840000;
-     transition: .5s ease-in-out;
+     color: #E1306C;
+      font-size: 2rem;
 }
 
 .redes-sociais .facebook:hover {
      color: blue;
-     transition: .5s ease-in-out;
+      font-size: 2rem;
 }
 
+.col6 {
+    background-color: #882177;
+}
 
-
+.col5 {
+    background-color :violet;
+}
 
 
 
