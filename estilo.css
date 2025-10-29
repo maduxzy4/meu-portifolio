@@ -315,12 +315,20 @@ h3 {
       font-size: 2rem;
 }
 
-.col6 {
-    background-color: #882177;
+.col1 {
+    background: #882177;
 }
 
-.col5 {
-    background-color :violet;
+.col2 {
+    background:violet;
+}
+
+.col3 {
+    background:rgb(0, 0, 0);
+}
+
+.col4 {
+    background: #ff5ae3;
 }
 
 
